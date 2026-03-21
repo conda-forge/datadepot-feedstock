@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   python_min: "3.10"
-  version: "0.0.59"
+  version: "0.0.60"
 
 package:
   name: datadepot
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/datadepot/datadepot-${{ version }}.tar.gz
-  sha256: e34e84ddb3d234eb81e28a2f1b2f414b9e87ce564c20ae54d1309c60fd8b906b
+  sha256: 28713b9068124e3e944fe07fa07feec978962aae5250a086845c10f3687bb229
 
 build:
   number: 0
