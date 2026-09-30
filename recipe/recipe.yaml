@@ -26,8 +26,13 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - pandas >=1.5
-    - numpy >=1.21
+    - pandas >=2.2
+    - numpy >=2.0
+    - huggingface_hub >=1.29.0
+    - kagglehub >=1.0.2
+    - pyarrow >=23.0.1
+    - ucimlrepo
+    - seaborn >=0.13
 
 tests:
   - python:
